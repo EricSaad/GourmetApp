@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif; /* Change to your preferred font-family */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make the container full-height of the viewport */
+}
+
+.logo {
+    max-width: 200px; /* Adjust the max-width according to your design */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.menu {
+    font-size: 36px; /* Increase font size for better readability */
+    font-weight: bold;
+    color: #343a40; /* Dark text color */
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        font-size: 24px;
+    }
+}
